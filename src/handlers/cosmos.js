@@ -2,7 +2,7 @@
 
 const uuidv4 = require("uuid/v4");
 
-module.exports.write = function(context, req) {
+module.exports.write = async function(context, req) {
   context.log("JavaScript HTTP trigger function processed a request.");
 
   const input = req.body;
@@ -23,5 +23,8 @@ module.exports.write = function(context, req) {
 
   context.log("Finish writing to CosmosDB");
 
-  context.done();
+  context.res = {
+    status: 200,
+    body: output
+  };
 };

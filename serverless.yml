@@ -100,6 +100,10 @@ functions:
           methods:
             - POST
           authLevel: anonymous
+      - http: true	  
+        x-azure-settings:	    
+          direction: out	
+          name: res
       - cosmosDB:
         x-azure-settings:
           direction: out

@@ -42,3 +42,5 @@ npm run deploy
 [CosmosDB Javascript Doc](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2#output---javascript-examples)
 
 [CosmosDB Binding Configuration](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2#output---configuration)
+
+[Context Done Method](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-node#contextdone-method)
